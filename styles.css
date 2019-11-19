@@ -1,0 +1,617 @@
+body {
+	font-family: "Helvetica", sans-serif;
+}
+
+.logo-container {
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+/* Edits the 'OnePath' logo in the header*/
+#logo {
+    padding: 30px;
+    height: auto;
+    width: 260px;
+}
+/* Edits the 'Join now' button at the top in the header */
+#joinnowtop {
+    float: right;
+    position: relative;
+    top: -130px;
+    font-size: 15px;
+    height: 60px;
+    width: 120px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #859c3f;
+    background-color: #859c3f;
+    color: white;
+}
+/* Edits the green bar on top of the website */
+.header-container {
+    position: relative;
+    top: -160px;
+    flex-direction: row;
+    font-size: 1em;  
+	padding: 10px;
+	background-color:#859c3f;
+	color: rgb(50, 41, 41);
+}
+/* Edits the 'Home' and 'Insurance' text used at the top of the page */
+#text {    
+    word-spacing: 350px;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: -620px;
+    left: 640px;
+}
+/* Edits the 'Super and Investment' text used at the top of the page */
+#text1 {
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: -649px;
+    left: 765px; 
+}
+/* Border around the bottom set of options */
+.bottom-options {
+    height: 60px;
+    width: auto;
+    position: relative;
+    top: -590px;
+    border-style: solid;
+    border-color:#859c3f;
+}
+/* Edits the 'Claims' and 'Products' text used at the top of the page */
+#text2 {    
+    word-spacing: 170px;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+/* Edits the 'Forms and Brochures' text used at the top of the page */
+#text3 {
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: -14px;
+    left: 500px; 
+}
+/* Edits the 'Performance and updates' text used at the top of the page */
+#text4 {
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: -43px;
+    left: 887px; 
+}
+/* Edits the 'About' text used at the top of the page */
+#text5 {
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    top: -72px;
+    left: 1315px; 
+}
+/* Edits the image on the page */
+#couple {
+    height: 350px;
+    width: 600px;
+    position: relative;
+    top: -570px;
+    border-radius: 25px;
+    border: 2px solid #859c3f;
+    overflow: auto;
+}
+/* Edits the quote on the page */
+#quote {
+    font-size: 28px;
+    font-style: oblique;
+    color:rgb(50, 41, 41);
+    display: inline-block;
+    position: relative;
+    top: -810px;
+    left: 610px;
+    line-height: 50px;
+}
+/* Edits position of the login box on the page */
+.loginbox {
+    border-radius: 25px;
+    width: 345px;
+    border: 3px solid #859c3f;
+    font-size: 30px;
+    color:rgb(50, 41, 41);
+    display: inline-block;
+    position: relative;
+    top: -1127px;
+    right: -1070px;
+    line-height: 57px;
+}
+/* Edits the 'Customer Login' text of login box */
+#loginbox{
+    position: relative;
+    right: -80px;
+}
+/* Edits the 'email' and 'password' in login box */
+#email {
+    position: relative;
+    top: -20px;
+    right: -5px;
+    color:rgb(50, 41, 41);
+    height: 30px;
+    width: 250px;
+    border-style: solid;
+    border-color:#859c3f;
+    border-width: 4px;
+}
+/* Edits the 'submit' button in login box */
+#submit {
+    position: relative;
+    top: -20px;
+    right: -5px;
+    color:rgb(50, 41, 41);
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #859c3f;
+    background-color: #859c3f;
+    color: white;
+}
+/* Edits the 'eye' from 'ib1' in 'infobox' class in the middle of the page */
+#eye {
+    position: relative;
+    top: -1095px;
+    left: 75px;
+    height: 170px;
+    width: auto;
+    }
+/* Edits the heading from 'ib1' in 'infobox' class in the middle of the page */  
+#ib1h {
+    position: relative;
+    top: -1090px;
+    right: -100px;
+    font-size: 20px;
+    align-content: center;
+    color: rgb(50, 41, 41);
+}
+/* Edits the 'ib1' in 'infobox' class in the middle of the page */
+#ib1 {
+    text-align: justify;
+    position: relative;
+    top: -1290px;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(50, 41, 41);
+    color: rgb(50, 41, 41);
+    width: 305px;
+    height: 230px;
+    padding-top: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/* Edits the 'hand' from 'ib2' in 'infobox' class in the middle of the page */
+#hand {
+
+    position: relative;
+    top: -1295px;
+    left: 75px;
+    height: 170px;
+    width: auto;
+    }
+/* Edits the heading from 'ib2' in 'infobox' class in the middle of the page */  
+#ib2h {
+    position: relative;
+    top: -1287px;
+    right: -100px;
+    font-size: 20px;
+    align-content: center;
+    color: rgb(50, 41, 41);
+}
+/* Edits the 'ib2' in 'infobox' class in the middle of the page */
+#ib2  {
+    text-align: justify;
+    position: relative;
+    top: -1487px;
+    font-size: 20px;
+    float: left;
+    vertical-align: text-bottom;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(50, 41, 41);
+    color: rgb(50, 41, 41);
+    width: 305px;
+    height: 230px;
+    padding-top: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/* Edits the 'heart' from 'ib3' in 'infobox' class in the middle of the page */
+#heart {
+    position: relative;
+    top: -1495px;
+    left: 75px;
+    height: 170px;
+    width: auto;
+    }
+/* Edits the heading from 'ib3 ' in 'infobox' class in the middle of the page */  
+#ib3h {
+    position: relative;
+    top: -1484px;
+    right: -100px;
+    font-size: 20px;
+    align-content: center;
+    color: rgb(50, 41, 41);
+}
+/* Edits the 'ib3' in 'infobox' class in the middle of the page */
+#ib3  {
+    text-align: justify;
+    position: relative;
+    top: -1684px;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(50, 41, 41);
+    color: rgb(50, 41, 41);
+    width: 305px;
+    padding-top: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/* Edits the 'health' from 'ib4' in 'infobox' class in the middle of the page */
+#health {
+    position: relative;
+    top: -1695px;
+    left: 75px;
+    height: 170px;
+    width: auto;
+    }
+/* Edits the heading from 'ib4 ' in 'infobox' class in the middle of the page */  
+#ib4h {
+    position: relative;
+    top: -1681px;
+    right: -60px;
+    font-size: 20px;
+    align-content: center;
+    color: rgb(50, 41, 41);
+}
+/* Edits the 'ib4' in 'infobox' class in the middle of the page */
+#ib4  {
+    text-align: justify;
+    position: relative;
+    top: -1881px;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(50, 41, 41);
+    color: rgb(50, 41, 41);
+    height: 230px;
+    width: 305px;
+    padding-top: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/* Edits the 'quote' */
+#middlequote {
+    text-align: justify;
+    position: relative;
+    top: -1870px;
+    text-align: center;
+    word-spacing: 15px;
+    font-size: 40px;
+    float: left;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(50, 41, 41);
+    color: rgb(50, 41, 41);
+    height: 7vh;
+    width: 201vh;
+    padding: 10px;
+}
+/* Edits the 'joinnow'button in the middle the quote */
+#joinnowmiddle {
+    font-size: 15px;
+    position: relative;
+    top: -1700px;
+    left: 650px;
+    height: 60px;
+    width: 120px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #859c3f;
+    background-color: #859c3f;
+    color: white;
+}
+/* Edits the position of the class 'greenbox' */
+.greenbox{
+    position: relative;
+    top: 10px;
+}
+/* Edits the 'gb1h' in 'greenbox' class */
+#gb1h  {
+    position: relative;
+    float: left;
+    top: -1765px;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #859c3f;
+}
+/* Edits the 'gb1' in 'greenbox' class  */
+#gb1  {
+    text-align: justify;
+    position: relative;
+    top: -1950px;
+    font-size: 20px;
+    clear: left;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+/* Edits the 'gb2h' in 'greenbox' class */
+#gb2h  {
+    position: relative;
+    top: -1945px;
+    right: -10px;
+    float: left;
+    font-size: 20px;
+    color: rgb(167, 167, 167);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #859c3f;
+}
+/* Edits the 'gb2' in 'greenbox' class*/
+#gb2  {
+    text-align: justify;
+    position: relative;
+    top: -1950px;
+    right: 220px;
+    font-size: 20px;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+/* Edits the 'gb3h' in 'greenbox' class */
+#gb3h  {
+    position: relative;
+    top: -1945px;
+    right: 214px;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 60px;
+    padding-left: 60px;
+    background: #859c3f;
+}
+/* Edits the 'gb3' in 'greenbox' class*/
+#gb3  {
+    text-align: justify;
+    position: relative;
+    top: -1950px;
+    right: 445px;
+    font-size: 20px;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+/* Edits the 'gb4h' in 'greenbox' class in the middle of the page */
+#gb4h  {
+    position: relative;
+    top: -1945px;
+    right: 438px;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background: #859c3f;
+}
+/* Edits the 'gb4' in 'greenbox' */
+#gb4  {
+    text-align: justify;
+    position: relative;
+    top: -2130px;
+    right: -720px;
+    font-size: 20px;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+/* Edits the 'gb5h' in 'greenbox' */
+#gb5h  {
+    position: relative;
+    top: -2124px;
+    left: 734px;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #859c3f;
+}
+/* Edits the 'gb5' in 'greenbox' */
+#gb5  {
+    text-align: justify;
+    position: relative;
+    top: -2130px;
+    right: -502px;
+    font-size: 20px;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+/* Edits the 'gb6h' in 'greenbox' classc */
+#gb6h  {
+    position: relative;
+    top: -2125px;
+    left: 510px;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(50, 41, 41);
+    padding-top:10px;
+    padding-bottom: 140px;
+    padding-right: 57px;
+    padding-left: 57px;
+    background: #859c3f;
+}
+/* Edits the 'gb6' in 'greenbox' class */
+#gb6  {
+    text-align: justify;
+    position: relative;
+    top: -2130px;
+    right: -285px;
+    font-size: 20px;
+    float: left;
+    height: auto;
+    width: 206px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+
+/* Edits the first column header in 'footer' class */
+#footerh {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    border-radius: 25px;
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 130px;
+    padding-right: 100px;
+    padding-left: 200px;
+    height: 7vh;
+    width: 164vh;
+    position: relative;
+    top: -2090px;
+}
+/* Edits the first column contents in 'footer' class */
+#footer1 {
+    clear: left;
+    float: left;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -2220px;
+    padding-left: 200px;
+}
+/* Edits the second column header in 'footer' class */
+#footerh2 {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 100px;
+    padding-left: 600px;
+    height: 7vh;
+    width: 164vh;
+    position: relative;
+    top: -2314px;
+}
+/* Edits the second column header in 'footer' class */
+#footer2 {
+    clear: left;
+    float: left;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -2314px;
+    padding-left: 600px;
+}
+/* Edits the third column header in 'footer' class */
+#footerh3 {
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    color: rgb(50, 41, 41);
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: 100px;
+    padding-left: 1000px;
+    height: 7vh;
+    width: 164vh;
+    position: relative;
+    top: -2384px;
+}
+/* Edits the third column header in 'footer' class */
+#footer3 {
+    clear: left;
+    float: left;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -2384px;
+    padding-left: 1000px;
+}
+

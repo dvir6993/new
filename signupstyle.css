@@ -1,0 +1,104 @@
+body {
+  /*font: normal 1em 'font';*/
+  font-family: "Helvetica", sans-serif;
+}
+
+main {
+/*	margin-top: 4.5em; */
+}
+#section1 {
+  height: 30em;
+}
+.heading {
+  background-color: #859c3f;
+  color: white;
+  height: 60px;
+  width: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+/* Multi-Step Form */
+* {
+  box-sizing: border-box;
+}
+
+#symbol {
+  position: relative;
+  left: 170px;
+  top: -60px;
+  height: auto;
+  width: 260px;
+}
+#regForm {
+  padding-top: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 5px;
+  border-color: rgb(50, 41, 41);
+  margin: 100px auto;
+  width: 100%;
+  min-width: 600px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that get errors during validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: rgb(50, 41, 41);
+  border-radius: 25px;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #859c3f;
+  color: white;
+}
+
+/* Step marker: Place in the form. */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(50, 41, 41);
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #859c3f;
+}
+
+/* Above adapted from https://www.w3tweaks.com/multi-step-html-forms.html */
+/* Above adapted from https://codepen.io/Thumper/pen/pVmBmm */
